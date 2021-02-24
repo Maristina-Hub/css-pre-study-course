@@ -16,8 +16,33 @@
         <h1>Sanni's Journal</h1>
         <h2>So fresh and so clean</h2>
     </header>
-    <main>
+    <main id="main">
+
+        <button id="myBtn"> Add A New Note</button>
+<center>
+    <p class="counter"></p>
+</center>
+
+        <div id="myModal" class="modal-body">
+            <div class= "modal-content">
+                <form id="form" class="modal-form">
+                    <span class="close">&times;</span>
+                    <H4>Write A Note</H4><br>
+                    <input type="text" name="title" id="post-title" placeholder="Note Title"><br><br>
+
+                    <textarea name="body" id="post-body" placeholder="Write Note Here" rows="10"
+                        cols="50"></textarea><br><br>
+                        <input type="submit" value="Submit" class="submit_btn">
+                   
+                </form>
+
+            </div>
+
+        </div>
+
+<section id="articles">
         <article>
+
             <h2>13/05/23: Spatulas</h2>
             <p><img src="https://res.cloudinary.com/dn8vprize/image/upload/v1613420345/spatula_rkt2g8.gif" alt="
                     spatulas"></p>
@@ -29,7 +54,7 @@
         </article>
         <article>
             <h2>14/05/23: Cookie Monster Cupcakes</h2>
-            <p><img src= "https://res.cloudinary.com/dn8vprize/image/upload/v1613420317/cookiemonster_ffopsv.jpg"
+            <p><img src="https://res.cloudinary.com/dn8vprize/image/upload/v1613420317/cookiemonster_ffopsv.jpg"
                     alt="cookie monster" alt="cookie monster"></p>
             <p>My favorite cartoon character is Cookie Monster, and my favorite dessert is cupcakes, so Cookie Monster
                 cupcakes are the best of both worlds.
@@ -40,6 +65,7 @@
                 cupcakes? (If so, I don't think I can ever love ANYONE!)
             </p>
         </article>
+    
     </main>
     <hr>
     <footer>
@@ -51,6 +77,14 @@
             <p><input type="submit" value="Submit"></p>
         </form>
         <p>&copy; 2023 Sanni. No Rights Reserved.</p>
+        <script src="/JAVASCRIPT/project.js">
+            link.rel = 'stylesheet';
+
+            link.type = 'text/css';
+
+            link.href = 'prject.css';
+        </script>
+        </section>
     </footer>
 
 </body>
